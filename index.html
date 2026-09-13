@@ -14,62 +14,60 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=add_shopping_cart,menu,shopping_cart,search"
     />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="header.css" />
   </head>
   <body>
     <header class="header">
       <nav class="header__navigation">
-        <div class="header__navigation-most-searched">
-          <menu class="header__navigation-top">
-            <ul>
-              <li><a href="">Big Deals</a></li>
-              <li><a href="">Top Brands</a></li>
-              <li><a href="">Suggestions</a></li>
-              <li><a href="">Help and Contact</a></li>
-            </ul>
+        <div class="container header__navigation-container">
+          <menu class="header__navigation-priority">
+            <li><a href="">Big Deals</a></li>
+            <li><a href="">Top Brands</a></li>
+            <li><a href="">Suggestions</a></li>
+            <li><a href="">Help and Contact</a></li>
           </menu>
 
           <menu class="header__navigation-account">
             <div class="header__navigation-account-lg">
-              <ul>
-                <li>
-                  <a href="">LogIn/SignUp</a>
-                </li>
-                <li>
-                  <a href="">Account</a>
-                </li>
-                <li>
-                  <a href=""
-                    ><span class="material-symbols-outlined">
-                      shopping_cart
-                    </span></a
-                  >
-                </li>
-              </ul>
+              <li>
+                <a href="">LogIn/SignUp</a>
+              </li>
+              <li>
+                <a href="">Account</a>
+              </li>
+              <li>
+                <a href=""
+                  ><span class="material-symbols-outlined">
+                    shopping_cart
+                  </span></a
+                >
+              </li>
             </div>
-            <div class="header__navagation-account_sm">
+            <div class="header__navigation-account_sm">
               <span class="material-symbols-outlined"> menu </span>
             </div>
           </menu>
-
-          <div class="header__navigation-bottom">
-            <div class="header__navigation-logo">Qwirty</div>
-            <form
-              action=""
-              class="header__navigation-search"
-              id="header__navigation-search"
-            >
-              <input
-                type="search"
-                class="header__navigation-search-input"
-                placeholder="Search for ..."
-              />
-              <button class="header__navigation-search-button" type="submit">
-                <span class="material-symbols-outlined">search</span>
-              </button>
-            </form>
-          </div>
         </div>
       </nav>
+
+      <div class="header__navigation-bottom container">
+        <div class="header__navigation-logo">Qwirty</div>
+        <form
+          action=""
+          class="header__navigation-form"
+          id="header__navigation-form"
+        >
+          <input
+            type="search"
+            class="header__navigation-search"
+            placeholder="Search for ..."
+          />
+          <button class="header__navigation-search-button" type="submit">
+            <span class="material-symbols-outlined">search</span>
+          </button>
+        </form>
+      </div>
     </header>
   </body>
 </html>

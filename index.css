@@ -1,6 +1,8 @@
 :root {
   --primary-color: #2563eb;
+  --primary-dark-bg: #228;
   --max-content-width: 98vw;
+  --secondary-color: white;
 }
 
 *,
@@ -9,8 +11,25 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: var(--secondary-color);
+}
+
+input,
+button {
+  border: none;
+  outline: none;
+}
+
+menu {
+  list-style: none;
 }
 
 body {
   font-family: "Encode Sans Semi Expanded", sans-serif;
+}
+
+.container {
+  max-width: 1280px;
+  padding: 0 0.5rem;
+  margin: 0 auto;
 }
