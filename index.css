@@ -1,6 +1,6 @@
 :root {
   --primary-color: #2563eb;
-  --primary-dark-bg: #228;
+  --primary-color-dark: #2163e8;
   --max-content-width: 98vw;
   --secondary-color: white;
 }
@@ -14,6 +14,9 @@
   color: var(--secondary-color);
 }
 
+a {
+  text-decoration: none;
+}
 input,
 button {
   border: none;
@@ -26,6 +29,7 @@ menu {
 
 body {
   font-family: "Encode Sans Semi Expanded", sans-serif;
+  background-color: #ededed;
 }
 
 .container {

@@ -1,3 +1,7 @@
+.header {
+  margin-bottom: 20px;
+}
+
 .header__navigation-container {
   display: flex;
   justify-content: space-between;
@@ -29,6 +33,7 @@
 .header__navigation-bottom {
   display: flex;
   justify-content: center;
+  gap: 1rem;
 }
 
 #header__navigation-form {
